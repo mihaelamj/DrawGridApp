@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A901D7762666D43A00AE2FD5 /* DrawGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901D7632666D43700AE2FD5 /* DrawGridApp.swift */; };
+		A901D7772666D43A00AE2FD5 /* DrawGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901D7632666D43700AE2FD5 /* DrawGridApp.swift */; };
+		A901D7782666D43A00AE2FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901D7642666D43700AE2FD5 /* ContentView.swift */; };
+		A901D7792666D43A00AE2FD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901D7642666D43700AE2FD5 /* ContentView.swift */; };
+		A901D77A2666D43A00AE2FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A901D7652666D43A00AE2FD5 /* Assets.xcassets */; };
+		A901D77B2666D43A00AE2FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A901D7652666D43A00AE2FD5 /* Assets.xcassets */; };
+		A901D7862666D47100AE2FD5 /* GridProperties in Frameworks */ = {isa = PBXBuildFile; productRef = A901D7852666D47100AE2FD5 /* GridProperties */; };
+		A901D7882666D47100AE2FD5 /* GridViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A901D7872666D47100AE2FD5 /* GridViewSwiftUI */; };
+		A945B2182668D01B0051BADC /* GridProperties in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2172668D01B0051BADC /* GridProperties */; };
+		A945B21A2668D0200051BADC /* GridViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2192668D0200051BADC /* GridViewSwiftUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A901D7632666D43700AE2FD5 /* DrawGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawGridApp.swift; sourceTree = "<group>"; };
+		A901D7642666D43700AE2FD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A901D7652666D43A00AE2FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A901D76A2666D43A00AE2FD5 /* DrawGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A901D76D2666D43A00AE2FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A901D7722666D43A00AE2FD5 /* DrawGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A901D7742666D43A00AE2FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A901D7752666D43A00AE2FD5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A901D7672666D43A00AE2FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901D7862666D47100AE2FD5 /* GridProperties in Frameworks */,
+				A901D7882666D47100AE2FD5 /* GridViewSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A901D76F2666D43A00AE2FD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B2182668D01B0051BADC /* GridProperties in Frameworks */,
+				A945B21A2668D0200051BADC /* GridViewSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A901D75D2666D43700AE2FD5 = {
+			isa = PBXGroup;
+			children = (
+				A901D7622666D43700AE2FD5 /* Shared */,
+				A901D76C2666D43A00AE2FD5 /* iOS */,
+				A901D7732666D43A00AE2FD5 /* macOS */,
+				A901D76B2666D43A00AE2FD5 /* Products */,
+				A945B2162668D01B0051BADC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A901D7622666D43700AE2FD5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A901D7632666D43700AE2FD5 /* DrawGridApp.swift */,
+				A901D7642666D43700AE2FD5 /* ContentView.swift */,
+				A901D7652666D43A00AE2FD5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A901D76B2666D43A00AE2FD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A901D76A2666D43A00AE2FD5 /* DrawGrid.app */,
+				A901D7722666D43A00AE2FD5 /* DrawGrid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A901D76C2666D43A00AE2FD5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A901D76D2666D43A00AE2FD5 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		A901D7732666D43A00AE2FD5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A901D7742666D43A00AE2FD5 /* Info.plist */,
+				A901D7752666D43A00AE2FD5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		A945B2162668D01B0051BADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A901D7692666D43A00AE2FD5 /* DrawGrid (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A901D77E2666D43A00AE2FD5 /* Build configuration list for PBXNativeTarget "DrawGrid (iOS)" */;
+			buildPhases = (
+				A901D7662666D43A00AE2FD5 /* Sources */,
+				A901D7672666D43A00AE2FD5 /* Frameworks */,
+				A901D7682666D43A00AE2FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrawGrid (iOS)";
+			packageProductDependencies = (
+				A901D7852666D47100AE2FD5 /* GridProperties */,
+				A901D7872666D47100AE2FD5 /* GridViewSwiftUI */,
+			);
+			productName = "DrawGrid (iOS)";
+			productReference = A901D76A2666D43A00AE2FD5 /* DrawGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A901D7712666D43A00AE2FD5 /* DrawGrid (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A901D7812666D43A00AE2FD5 /* Build configuration list for PBXNativeTarget "DrawGrid (macOS)" */;
+			buildPhases = (
+				A901D76E2666D43A00AE2FD5 /* Sources */,
+				A901D76F2666D43A00AE2FD5 /* Frameworks */,
+				A901D7702666D43A00AE2FD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DrawGrid (macOS)";
+			packageProductDependencies = (
+				A945B2172668D01B0051BADC /* GridProperties */,
+				A945B2192668D0200051BADC /* GridViewSwiftUI */,
+			);
+			productName = "DrawGrid (macOS)";
+			productReference = A901D7722666D43A00AE2FD5 /* DrawGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A901D75E2666D43700AE2FD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A901D7692666D43A00AE2FD5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A901D7712666D43A00AE2FD5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = A901D7612666D43700AE2FD5 /* Build configuration list for PBXProject "DrawGrid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A901D75D2666D43700AE2FD5;
+			packageReferences = (
+				A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */,
+			);
+			productRefGroup = A901D76B2666D43A00AE2FD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A901D7692666D43A00AE2FD5 /* DrawGrid (iOS) */,
+				A901D7712666D43A00AE2FD5 /* DrawGrid (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A901D7682666D43A00AE2FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901D77A2666D43A00AE2FD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A901D7702666D43A00AE2FD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901D77B2666D43A00AE2FD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A901D7662666D43A00AE2FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901D7782666D43A00AE2FD5 /* ContentView.swift in Sources */,
+				A901D7762666D43A00AE2FD5 /* DrawGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A901D76E2666D43A00AE2FD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A901D7792666D43A00AE2FD5 /* ContentView.swift in Sources */,
+				A901D7772666D43A00AE2FD5 /* DrawGridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A901D77C2666D43A00AE2FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A901D77D2666D43A00AE2FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A901D77F2666D43A00AE2FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGrid;
+				PRODUCT_NAME = DrawGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A901D7802666D43A00AE2FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGrid;
+				PRODUCT_NAME = DrawGrid;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A901D7822666D43A00AE2FD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGrid;
+				PRODUCT_NAME = DrawGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A901D7832666D43A00AE2FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGrid;
+				PRODUCT_NAME = DrawGrid;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A901D7612666D43700AE2FD5 /* Build configuration list for PBXProject "DrawGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A901D77C2666D43A00AE2FD5 /* Debug */,
+				A901D77D2666D43A00AE2FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A901D77E2666D43A00AE2FD5 /* Build configuration list for PBXNativeTarget "DrawGrid (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A901D77F2666D43A00AE2FD5 /* Debug */,
+				A901D7802666D43A00AE2FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A901D7812666D43A00AE2FD5 /* Build configuration list for PBXNativeTarget "DrawGrid (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A901D7822666D43A00AE2FD5 /* Debug */,
+				A901D7832666D43A00AE2FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mihaelamj/MMJUtils";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A901D7852666D47100AE2FD5 /* GridProperties */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridProperties;
+		};
+		A901D7872666D47100AE2FD5 /* GridViewSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridViewSwiftUI;
+		};
+		A945B2172668D01B0051BADC /* GridProperties */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridProperties;
+		};
+		A945B2192668D0200051BADC /* GridViewSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridViewSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A901D75E2666D43700AE2FD5 /* Project object */;
+}
