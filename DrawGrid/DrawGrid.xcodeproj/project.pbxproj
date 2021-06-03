@@ -17,6 +17,26 @@
 		A901D7882666D47100AE2FD5 /* GridViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A901D7872666D47100AE2FD5 /* GridViewSwiftUI */; };
 		A945B2182668D01B0051BADC /* GridProperties in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2172668D01B0051BADC /* GridProperties */; };
 		A945B21A2668D0200051BADC /* GridViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2192668D0200051BADC /* GridViewSwiftUI */; };
+		A945B2222668E8070051BADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2212668E8070051BADC /* AppDelegate.swift */; };
+		A945B2242668E8070051BADC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2232668E8070051BADC /* SceneDelegate.swift */; };
+		A945B22B2668E8080051BADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A945B22A2668E8080051BADC /* Assets.xcassets */; };
+		A945B22E2668E8080051BADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A945B22C2668E8080051BADC /* LaunchScreen.storyboard */; };
+		A945B23A2668E81B0051BADC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2392668E81B0051BADC /* AppDelegate.swift */; };
+		A945B23E2668E81C0051BADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A945B23D2668E81C0051BADC /* Assets.xcassets */; };
+		A945B2412668E81C0051BADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A945B23F2668E81C0051BADC /* Main.storyboard */; };
+		A945B24B2668E8710051BADC /* GridProperties in Frameworks */ = {isa = PBXBuildFile; productRef = A945B24A2668E8710051BADC /* GridProperties */; };
+		A945B24D2668E8760051BADC /* GridView in Frameworks */ = {isa = PBXBuildFile; productRef = A945B24C2668E8760051BADC /* GridView */; };
+		A945B24F2668E87B0051BADC /* UniteKit in Frameworks */ = {isa = PBXBuildFile; productRef = A945B24E2668E87B0051BADC /* UniteKit */; };
+		A945B2512668E8820051BADC /* GridProperties in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2502668E8820051BADC /* GridProperties */; };
+		A945B2532668E8870051BADC /* GridView in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2522668E8870051BADC /* GridView */; };
+		A945B2552668E88C0051BADC /* UniteKit in Frameworks */ = {isa = PBXBuildFile; productRef = A945B2542668E88C0051BADC /* UniteKit */; };
+		A945B2572668E9440051BADC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2562668E9440051BADC /* MainViewController.swift */; };
+		A945B2582668E9440051BADC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2562668E9440051BADC /* MainViewController.swift */; };
+		A945B25C2668E9C00051BADC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B25A2668E9C00051BADC /* main.swift */; };
+		A945B25E2668EA2E0051BADC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B25D2668EA2E0051BADC /* MainView.swift */; };
+		A945B25F2668EA2E0051BADC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B25D2668EA2E0051BADC /* MainView.swift */; };
+		A945B2612668EA590051BADC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2602668EA590051BADC /* BaseView.swift */; };
+		A945B2622668EA590051BADC /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A945B2602668EA590051BADC /* BaseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +48,22 @@
 		A901D7722666D43A00AE2FD5 /* DrawGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A901D7742666D43A00AE2FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A901D7752666D43A00AE2FD5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		A945B21F2668E8070051BADC /* DrawGridUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawGridUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A945B2212668E8070051BADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A945B2232668E8070051BADC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A945B22A2668E8080051BADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A945B22D2668E8080051BADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A945B22F2668E8080051BADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A945B2372668E81B0051BADC /* DrawGridAppKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawGridAppKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A945B2392668E81B0051BADC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A945B23D2668E81C0051BADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A945B2402668E81C0051BADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A945B2422668E81C0051BADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A945B2432668E81C0051BADC /* DrawGridAppKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrawGridAppKit.entitlements; sourceTree = "<group>"; };
+		A945B2562668E9440051BADC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A945B25A2668E9C00051BADC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A945B25D2668EA2E0051BADC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A945B2602668EA590051BADC /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,15 +85,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A945B21C2668E8070051BADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B24B2668E8710051BADC /* GridProperties in Frameworks */,
+				A945B24D2668E8760051BADC /* GridView in Frameworks */,
+				A945B24F2668E87B0051BADC /* UniteKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945B2342668E81B0051BADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B2512668E8820051BADC /* GridProperties in Frameworks */,
+				A945B2532668E8870051BADC /* GridView in Frameworks */,
+				A945B2552668E88C0051BADC /* UniteKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		A901D75D2666D43700AE2FD5 = {
 			isa = PBXGroup;
 			children = (
+				A945B2592668E94B0051BADC /* CommonKit */,
 				A901D7622666D43700AE2FD5 /* Shared */,
 				A901D76C2666D43A00AE2FD5 /* iOS */,
 				A901D7732666D43A00AE2FD5 /* macOS */,
+				A945B2202668E8070051BADC /* DrawGridUIKit */,
+				A945B2382668E81B0051BADC /* DrawGridAppKit */,
 				A901D76B2666D43A00AE2FD5 /* Products */,
 				A945B2162668D01B0051BADC /* Frameworks */,
 			);
@@ -78,6 +137,8 @@
 			children = (
 				A901D76A2666D43A00AE2FD5 /* DrawGrid.app */,
 				A901D7722666D43A00AE2FD5 /* DrawGrid.app */,
+				A945B21F2668E8070051BADC /* DrawGridUIKit.app */,
+				A945B2372668E81B0051BADC /* DrawGridAppKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +165,41 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A945B2202668E8070051BADC /* DrawGridUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A945B2212668E8070051BADC /* AppDelegate.swift */,
+				A945B2232668E8070051BADC /* SceneDelegate.swift */,
+				A945B22A2668E8080051BADC /* Assets.xcassets */,
+				A945B22C2668E8080051BADC /* LaunchScreen.storyboard */,
+				A945B22F2668E8080051BADC /* Info.plist */,
+			);
+			path = DrawGridUIKit;
+			sourceTree = "<group>";
+		};
+		A945B2382668E81B0051BADC /* DrawGridAppKit */ = {
+			isa = PBXGroup;
+			children = (
+				A945B25A2668E9C00051BADC /* main.swift */,
+				A945B2392668E81B0051BADC /* AppDelegate.swift */,
+				A945B23D2668E81C0051BADC /* Assets.xcassets */,
+				A945B23F2668E81C0051BADC /* Main.storyboard */,
+				A945B2422668E81C0051BADC /* Info.plist */,
+				A945B2432668E81C0051BADC /* DrawGridAppKit.entitlements */,
+			);
+			path = DrawGridAppKit;
+			sourceTree = "<group>";
+		};
+		A945B2592668E94B0051BADC /* CommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				A945B2562668E9440051BADC /* MainViewController.swift */,
+				A945B2602668EA590051BADC /* BaseView.swift */,
+				A945B25D2668EA2E0051BADC /* MainView.swift */,
+			);
+			path = CommonKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +247,50 @@
 			productReference = A901D7722666D43A00AE2FD5 /* DrawGrid.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A945B21E2668E8070051BADC /* DrawGridUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A945B2322668E8080051BADC /* Build configuration list for PBXNativeTarget "DrawGridUIKit" */;
+			buildPhases = (
+				A945B21B2668E8070051BADC /* Sources */,
+				A945B21C2668E8070051BADC /* Frameworks */,
+				A945B21D2668E8070051BADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawGridUIKit;
+			packageProductDependencies = (
+				A945B24A2668E8710051BADC /* GridProperties */,
+				A945B24C2668E8760051BADC /* GridView */,
+				A945B24E2668E87B0051BADC /* UniteKit */,
+			);
+			productName = DrawGridUIKit;
+			productReference = A945B21F2668E8070051BADC /* DrawGridUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A945B2362668E81B0051BADC /* DrawGridAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A945B2442668E81C0051BADC /* Build configuration list for PBXNativeTarget "DrawGridAppKit" */;
+			buildPhases = (
+				A945B2332668E81B0051BADC /* Sources */,
+				A945B2342668E81B0051BADC /* Frameworks */,
+				A945B2352668E81B0051BADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawGridAppKit;
+			packageProductDependencies = (
+				A945B2502668E8820051BADC /* GridProperties */,
+				A945B2522668E8870051BADC /* GridView */,
+				A945B2542668E88C0051BADC /* UniteKit */,
+			);
+			productName = DrawGridAppKit;
+			productReference = A945B2372668E81B0051BADC /* DrawGridAppKit.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -166,6 +306,12 @@
 					A901D7712666D43A00AE2FD5 = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					A945B21E2668E8070051BADC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A945B2362668E81B0051BADC = {
+						CreatedOnToolsVersion = 12.5;
+					};
 				};
 			};
 			buildConfigurationList = A901D7612666D43700AE2FD5 /* Build configuration list for PBXProject "DrawGrid" */;
@@ -179,6 +325,7 @@
 			mainGroup = A901D75D2666D43700AE2FD5;
 			packageReferences = (
 				A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */,
+				A945B2472668E8500051BADC /* XCRemoteSwiftPackageReference "UniteKit" */,
 			);
 			productRefGroup = A901D76B2666D43A00AE2FD5 /* Products */;
 			projectDirPath = "";
@@ -186,6 +333,8 @@
 			targets = (
 				A901D7692666D43A00AE2FD5 /* DrawGrid (iOS) */,
 				A901D7712666D43A00AE2FD5 /* DrawGrid (macOS) */,
+				A945B21E2668E8070051BADC /* DrawGridUIKit */,
+				A945B2362668E81B0051BADC /* DrawGridAppKit */,
 			);
 		};
 /* End PBXProject section */
@@ -204,6 +353,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A901D77B2666D43A00AE2FD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945B21D2668E8070051BADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B22E2668E8080051BADC /* LaunchScreen.storyboard in Resources */,
+				A945B22B2668E8080051BADC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945B2352668E81B0051BADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B23E2668E81C0051BADC /* Assets.xcassets in Resources */,
+				A945B2412668E81C0051BADC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +395,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A945B21B2668E8070051BADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B2222668E8070051BADC /* AppDelegate.swift in Sources */,
+				A945B2242668E8070051BADC /* SceneDelegate.swift in Sources */,
+				A945B2612668EA590051BADC /* BaseView.swift in Sources */,
+				A945B25E2668EA2E0051BADC /* MainView.swift in Sources */,
+				A945B2572668E9440051BADC /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A945B2332668E81B0051BADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A945B2582668E9440051BADC /* MainViewController.swift in Sources */,
+				A945B25F2668EA2E0051BADC /* MainView.swift in Sources */,
+				A945B2622668EA590051BADC /* BaseView.swift in Sources */,
+				A945B25C2668E9C00051BADC /* main.swift in Sources */,
+				A945B23A2668E81B0051BADC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A945B22C2668E8080051BADC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A945B22D2668E8080051BADC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A945B23F2668E81C0051BADC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A945B2402668E81C0051BADC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A901D77C2666D43A00AE2FD5 /* Debug */ = {
@@ -435,6 +645,95 @@
 			};
 			name = Release;
 		};
+		A945B2302668E8080051BADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				INFOPLIST_FILE = DrawGridUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGridUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A945B2312668E8080051BADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				INFOPLIST_FILE = DrawGridUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGridUIKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A945B2452668E81C0051BADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawGridAppKit/DrawGridAppKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DrawGridAppKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGridAppKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A945B2462668E81C0051BADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DrawGridAppKit/DrawGridAppKit.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XBE2EP7T4F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DrawGridAppKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mihaelamj.me.DrawGridAppKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +764,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A945B2322668E8080051BADC /* Build configuration list for PBXNativeTarget "DrawGridUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A945B2302668E8080051BADC /* Debug */,
+				A945B2312668E8080051BADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A945B2442668E81C0051BADC /* Build configuration list for PBXNativeTarget "DrawGridAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A945B2452668E81C0051BADC /* Debug */,
+				A945B2462668E81C0051BADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -474,6 +791,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.5.0;
+			};
+		};
+		A945B2472668E8500051BADC /* XCRemoteSwiftPackageReference "UniteKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mihaelamj/UniteKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -498,6 +823,36 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
 			productName = GridViewSwiftUI;
+		};
+		A945B24A2668E8710051BADC /* GridProperties */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridProperties;
+		};
+		A945B24C2668E8760051BADC /* GridView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridView;
+		};
+		A945B24E2668E87B0051BADC /* UniteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A945B2472668E8500051BADC /* XCRemoteSwiftPackageReference "UniteKit" */;
+			productName = UniteKit;
+		};
+		A945B2502668E8820051BADC /* GridProperties */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridProperties;
+		};
+		A945B2522668E8870051BADC /* GridView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A901D7842666D47100AE2FD5 /* XCRemoteSwiftPackageReference "MMJUtils" */;
+			productName = GridView;
+		};
+		A945B2542668E88C0051BADC /* UniteKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A945B2472668E8500051BADC /* XCRemoteSwiftPackageReference "UniteKit" */;
+			productName = UniteKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
